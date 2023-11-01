@@ -5,16 +5,17 @@ const NavBar = () => {
   const [menu, setMenu] = useState(false);
 
   const links = [
-    { id: 1, section: "sobre" },
-    { id: 2, section: "skills" },
-    { id: 3, section: "projetos" },
-    { id: 4, section: "contato" },
+    { id: 1, section: "home" },
+    { id: 2, section: "sobre" },
+    { id: 3, section: "skills" },
+    { id: 4, section: "projetos" },
+    { id: 5, section: "contato" },
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 fixed bg-[#171717]">
       <div>
-        <h1 className="text-3xl text-green-400 font-bold italic ml-2">
+        <h1 className="text-xl md:text-3xl text-green-400 font-bold italic ml-2">
           David Brigido
         </h1>
       </div>
