@@ -7,9 +7,9 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="h-screen w-full bg-gradient-to-b from-[#171717] to-[#0a0a0a]"
+      className="min-h-screen w-full bg-gradient-to-b from-[#171717] to-[#0a0a0a]"
     >
-      <div className="max-w-screen-lg mx-auto md:pt-0 h-full px-4 flex flex-col md:flex-row items-center justify-center gap-10">
+      <div className="max-w-screen-lg mx-auto pt-40 md:pt-0 h-full px-4 flex flex-col md:flex-row items-center justify-center gap-10">
         <div className="flex flex-col items-center justify-center text-center md:text-left md:items-start p-2">
           <h2 className="text-3xl sm:text-4xl font-bold">
             <span className="text-green-400">Olá!</span> Me chamo David. Seu
@@ -30,7 +30,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="hidden md:flex">
+        <div>
           <Image
             src={ProfileImage}
             alt="David Brigido image"

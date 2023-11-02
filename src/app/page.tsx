@@ -4,6 +4,7 @@ import NavBar from "@/components/NavBar";
 import Home from "@/components/Home";
 import SocialLinks from "@/components/SocialLinks";
 import About from "@/components/About";
+import Skills from "@/components/Skills";
 
 const Page = () => {
   return (
@@ -11,6 +12,7 @@ const Page = () => {
       <NavBar />
       <Home />
       <About />
+      <Skills />
       <SocialLinks />
     </div>
   );

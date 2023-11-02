@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="sobre" className="h-screen w-full bg-[#0a0a0a]">
+    <section id="sobre" className="min-h-screen w-full">
       <div className="max-w-screen-lg p-4 py-8 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <h3 className="text-3xl sm:text-4xl font-bold inline border-b-4 border-green-400">
