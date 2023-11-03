@@ -10,7 +10,7 @@ const About = () => {
           </h3>
         </div>
 
-        <p className="md:text-xl md:mt-20">
+        <p className="text-xl text-gray-300 mt-20">
           Como Desenvolvedor Full Stack, possuo mais de 2 anos de experiência em
           tecnologias de ponta. Ao trabalhar em diversos projetos, aprimorei
           minhas habilidades na construção e manutenção de softwares escaláveis
@@ -18,7 +18,7 @@ const About = () => {
           conhecimentos e consistentemente aprimoro minhas habilidades.
         </p>
         <br />
-        <p className="md:text-xl">
+        <p className="text-xl text-gray-300">
           Tenho grande capacidade de adaptação para lidar com mudanças e superar
           desafios, mesmo sob pressão. Em resumo, sou bastante otimista,
           prestativo e esforçado. Atualmente estou aberto para contribuir em

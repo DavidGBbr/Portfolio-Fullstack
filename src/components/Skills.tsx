@@ -15,9 +15,10 @@ import MysqlImage from "@/assets/skills/mysql.svg";
 import PostgreImage from "@/assets/skills/postgresql.svg";
 import TailwindImage from "@/assets/skills/tailwindcss.svg";
 import ReduxImage from "@/assets/skills/redux.svg";
+import StyledImage from "@/assets/skills/styledcomponents.svg";
 
 const Skills = () => {
-  const skillsImages = [
+  const skillsImages: SkillType[] = [
     { id: 1, image: HtmlImage, label: "HTML" },
     { id: 2, image: CssImage, label: "CSS" },
     { id: 3, image: JsImage, label: "JavaScript" },
@@ -33,6 +34,7 @@ const Skills = () => {
     { id: 13, image: PostgreImage, label: "PostgreSQL" },
     { id: 14, image: TailwindImage, label: "TailwindCSS" },
     { id: 15, image: ReduxImage, label: "Redux" },
+    { id: 16, image: StyledImage, label: "Styled Components" },
   ];
 
   return (
@@ -44,7 +46,7 @@ const Skills = () => {
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-20">
           {skillsImages.map(({ id, image, label }) => (
             <div
               key={id}
