@@ -1,4 +1,5 @@
 import { NavLinkType } from "@/types/NavLink";
+import Link from "next/link";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -27,7 +28,9 @@ const NavBar = () => {
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105 hover:text-green-400 duration-200"
           >
-            {section}
+            <Link href={section === "home" ? "#" : `#${section}`}>
+              {section}
+            </Link>
           </li>
         ))}
       </ul>

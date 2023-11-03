@@ -76,22 +76,22 @@ const Projects = () => {
 
   return (
     <section id="projetos" className="min-h-screen w-full">
-      <div className="max-w-screen-lg p-4 py-8 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 py-8 mx-auto flex flex-col justify-center w-full min-h-full">
         <div className="pb-8">
           <h3 className="text-3xl font-bold inline border-b-4 border-green-400">
             Projetos em destaque
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 gap-4 mt-20">
+        <div className="grid gap-4 mt-20">
           {projects.map(
             ({ id, name, description, techs, repo, site, image }) => (
               <div
                 key={id}
                 className="bg-[#171717] rounded-lg shadow-lg p-4 hover:scale-95 duration-300 flex flex-col justify-center items-center"
               >
-                <Image src={image} alt={name} className="rounded-md w-[100%]" />
-                <div className="p-2 flex flex-col justify-center items-center gap-4 mt-5">
+                <Image src={image} alt={name} className="rounded-md" />
+                <div className="p-2 flex flex-col justify-between items-center gap-4 mt-5">
                   <h2 className="text-3xl font-semibold">{name}</h2>
                   <p className="text-center text-gray-300 text-lg">
                     {description}
@@ -101,8 +101,11 @@ const Projects = () => {
                       Tecnologias usadas:
                     </h3>
                     <ul className="flex flex-wrap justify-center gap-3">
-                      {techs.map((tech) => (
-                        <li className="bg-[#090909] px-2 py-1 rounded-md">
+                      {techs.map((tech, id) => (
+                        <li
+                          key={id}
+                          className="bg-[#090909] px-2 py-1 rounded-md"
+                        >
                           {tech}
                         </li>
                       ))}
@@ -111,12 +114,14 @@ const Projects = () => {
                   <div className="flex gap-2 flex-wrap justify-center items-center mt-5">
                     <a
                       href={repo}
+                      target="_blank"
                       className="text-lg font-bold border-[3px] border-green-700 w-64 p-5 rounded-2xl flex items-center justify-center gap-3 duration-500 hover:bg-green-400 hover:scale-95"
                     >
                       <span>Repositório</span> <FaGithub size={30} />
                     </a>
                     <a
                       href={site}
+                      target="_blank"
                       className="text-lg font-bold border-[3px] border-green-700 w-64 p-5 rounded-2xl flex items-center justify-center gap-3 duration-500 hover:bg-green-400 hover:scale-95"
                     >
                       Site

@@ -6,6 +6,7 @@ import SocialLinks from "@/components/SocialLinks";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
+import BackToTop from "@/components/BackToTop";
 
 const Page = () => {
   return (
@@ -16,6 +17,7 @@ const Page = () => {
       <Skills />
       <Projects />
       <SocialLinks />
+      <BackToTop />
     </div>
   );
 };
