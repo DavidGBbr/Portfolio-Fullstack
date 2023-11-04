@@ -7,6 +7,7 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import BackToTop from "@/components/BackToTop";
+import Footer from "@/components/Footer";
 
 const Page = () => {
   return (
@@ -16,6 +17,7 @@ const Page = () => {
       <About />
       <Skills />
       <Projects />
+      <Footer />
       <SocialLinks />
       <BackToTop />
     </div>
