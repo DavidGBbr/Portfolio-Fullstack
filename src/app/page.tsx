@@ -8,6 +8,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import BackToTop from "@/components/BackToTop";
 import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 
 const Page = () => {
   return (
@@ -17,6 +18,7 @@ const Page = () => {
       <About />
       <Skills />
       <Projects />
+      <Contact />
       <Footer />
       <SocialLinks />
       <BackToTop />

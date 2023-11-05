@@ -34,7 +34,7 @@ const Projects = () => {
       id: 3,
       name: "Coffe Shops Tia Rosa",
       description:
-        "Site de uma cafeteria fictícia, conta com layout 100% responsivo.",
+        "Site de uma cafeteria fictícia, contando com layout 100% responsivo.",
       techs: ["NextJS", "TypeScript", "TailwindCSS", "React Icons"],
       repo: "https://github.com/DavidGBbr/coffee-shops-tia-rosa",
       site: "https://coffee-shops-khaki.vercel.app/",
@@ -83,15 +83,15 @@ const Projects = () => {
           </h3>
         </div>
 
-        <div className="grid gap-4 mt-20">
+        <div className="grid sm:grid-cols-2 gap-6 mt-20">
           {projects.map(
             ({ id, name, description, techs, repo, site, image }) => (
               <div
                 key={id}
-                className="bg-[#171717] rounded-lg shadow-lg p-4 hover:scale-95 duration-300 flex flex-col justify-center items-center"
+                className="bg-[#171717] rounded-lg shadow-md shadow-green-700 p-4 hover:scale-95 duration-500 flex flex-col justify-between items-center"
               >
                 <Image src={image} alt={name} className="rounded-md" />
-                <div className="p-2 flex flex-col justify-between items-center gap-4 mt-5">
+                <div className="p-2 flex flex-1 flex-col justify-between items-center gap-4 mt-5">
                   <h2 className="text-3xl font-semibold">{name}</h2>
                   <p className="text-center text-gray-300 text-lg">
                     {description}
@@ -111,18 +111,18 @@ const Projects = () => {
                       ))}
                     </ul>
                   </div>
-                  <div className="flex gap-2 flex-wrap justify-center items-center mt-5">
+                  <div className="grid grid-cols-2 gap-2 justify-center items-center mt-5">
                     <a
                       href={repo}
                       target="_blank"
-                      className="text-lg font-bold border-[3px] border-green-700 w-64 p-5 rounded-2xl flex items-center justify-center gap-3 duration-500 hover:bg-green-400 hover:scale-95"
+                      className="text-lg font-bold border-[3px] border-green-700 w-full p-5 rounded-2xl flex items-center justify-center gap-3 duration-500 hover:bg-green-400 hover:scale-95"
                     >
                       <span>Repositório</span> <FaGithub size={30} />
                     </a>
                     <a
                       href={site}
                       target="_blank"
-                      className="text-lg font-bold border-[3px] border-green-700 w-64 p-5 rounded-2xl flex items-center justify-center gap-3 duration-500 hover:bg-green-400 hover:scale-95"
+                      className="text-lg font-bold border-[3px] border-green-700 w-full p-5 rounded-2xl flex items-center justify-center gap-3 duration-500 hover:bg-green-400 hover:scale-95"
                     >
                       Site
                     </a>

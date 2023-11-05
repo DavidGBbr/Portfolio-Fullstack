@@ -45,12 +45,14 @@ const NavBar = () => {
       {menu && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-[#171717] to-zinc-800 text-gray-500">
           {links.map(({ id, section }) => (
-            <li
+            <Link
+              href={section === "home" ? "#" : `#${section}`}
+              onClick={() => setMenu(!menu)}
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl text-gray-300 hover:text-green-400 duration-200"
             >
               {section}
-            </li>
+            </Link>
           ))}
         </ul>
       )}

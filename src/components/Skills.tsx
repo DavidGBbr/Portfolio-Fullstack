@@ -46,11 +46,11 @@ const Skills = () => {
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-20">
           {skillsImages.map(({ id, image, label }) => (
             <div
               key={id}
-              className="bg-[#171717] rounded-lg shadow-lg p-4 hover:scale-105 duration-300 cursor-pointer flex flex-col justify-center items-center"
+              className="bg-[#171717] rounded-lg shadow-md shadow-green-700 p-4 hover:scale-105 duration-300 cursor-pointer flex flex-col justify-center items-center"
             >
               <Image src={image} alt={label} className="w-20" />
               <div className="p-2">
