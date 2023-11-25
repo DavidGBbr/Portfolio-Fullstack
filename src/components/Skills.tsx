@@ -9,13 +9,16 @@ import ReactNativeImage from "@/assets/skills/reactnative.svg";
 import NextImage from "@/assets/skills/next.svg";
 import NodeImage from "@/assets/skills/node.svg";
 import ExpressImage from "@/assets/skills/express.svg";
-import SequelizeImage from "@/assets/skills/sequelize.svg";
-import MongoImage from "@/assets/skills/mongodb.svg";
 import MysqlImage from "@/assets/skills/mysql.svg";
 import PostgreImage from "@/assets/skills/postgresql.svg";
+import FirebaseImage from "@/assets/skills/firebase.svg";
+import MongoImage from "@/assets/skills/mongodb.svg";
+import SequelizeImage from "@/assets/skills/sequelize.svg";
+import PrismaImage from "@/assets/skills/prisma.svg";
 import TailwindImage from "@/assets/skills/tailwindcss.svg";
-import ReduxImage from "@/assets/skills/redux.svg";
 import StyledImage from "@/assets/skills/styledcomponents.svg";
+import ReduxImage from "@/assets/skills/redux.svg";
+import JestImage from "@/assets/skills/jest.svg";
 
 const Skills = () => {
   const skillsImages: SkillType[] = [
@@ -28,13 +31,16 @@ const Skills = () => {
     { id: 7, image: NextImage, label: "NextJS" },
     { id: 8, image: NodeImage, label: "NodeJS" },
     { id: 9, image: ExpressImage, label: "Express" },
-    { id: 10, image: SequelizeImage, label: "Sequelize" },
-    { id: 11, image: MongoImage, label: "MongoDB" },
-    { id: 12, image: MysqlImage, label: "MySQL" },
-    { id: 13, image: PostgreImage, label: "PostgreSQL" },
-    { id: 14, image: TailwindImage, label: "TailwindCSS" },
-    { id: 15, image: ReduxImage, label: "Redux" },
-    { id: 16, image: StyledImage, label: "Styled Components" },
+    { id: 10, image: MysqlImage, label: "MySQL" },
+    { id: 11, image: PostgreImage, label: "PostgreSQL" },
+    { id: 12, image: FirebaseImage, label: "Firebase" },
+    { id: 13, image: MongoImage, label: "MongoDB" },
+    { id: 14, image: SequelizeImage, label: "Sequelize" },
+    { id: 15, image: PrismaImage, label: "Prisma" },
+    { id: 16, image: TailwindImage, label: "TailwindCSS" },
+    { id: 17, image: StyledImage, label: "Styled Components" },
+    { id: 18, image: ReduxImage, label: "Redux" },
+    { id: 19, image: JestImage, label: "Jest" },
   ];
 
   return (
