@@ -21,6 +21,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/david-brigido/"
                 className="text-3xl hover:text-secondary hover:text-green-700 hover:scale-110 duration-300"
                 aria-label="Linkedin"
+                target="_blank"
               >
                 <FaLinkedin />
               </a>
@@ -28,6 +29,7 @@ const Footer = () => {
                 href="https://github.com/DavidGBbr"
                 className="text-3xl hover:text-secondary hover:text-green-700 hover:scale-110 duration-300"
                 aria-label="Github"
+                target="_blank"
               >
                 <FaGithub />
               </a>
