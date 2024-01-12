@@ -7,9 +7,30 @@ import FintechImage from "@/assets/projects/fintech.png";
 import CoffeeShopImage from "@/assets/projects/coffee-shops.png";
 import DogsImage from "@/assets/projects/dogs.png";
 import CellShopImage from "@/assets/projects/cell-shop.png";
+import PetFriendImage from "@/assets/projects/pet-friend.png";
 
 const Projects = () => {
   const projects: ProjectType[] = [
+    {
+      id: 0,
+      name: "Pet Friend",
+      description:
+        "sistema de adoção de pets, proporcionando o contato direto entre adotantes e doadores de animais de estimação.",
+      techs: [
+        "NextJS",
+        "Axios",
+        "Nookies",
+        "MongoDB",
+        "Node",
+        "Express",
+        "Prisma",
+        "Bcrypt",
+        "multer",
+      ],
+      repo: "https://github.com/DavidGBbr/PetFriend",
+      site: "https://pet-friend.vercel.app/",
+      image: PetFriendImage,
+    },
     {
       id: 1,
       name: "Finance Controller",
