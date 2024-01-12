@@ -4,6 +4,7 @@ import HtmlImage from "@/assets/skills/html.svg";
 import CssImage from "@/assets/skills/css.svg";
 import JsImage from "@/assets/skills/javascript.svg";
 import TsImage from "@/assets/skills/typescript.svg";
+import JavaImage from "@/assets/skills/java.svg";
 import ReactImage from "@/assets/skills/react.svg";
 import ReactNativeImage from "@/assets/skills/reactnative.svg";
 import NextImage from "@/assets/skills/next.svg";
@@ -22,10 +23,11 @@ import JestImage from "@/assets/skills/jest.svg";
 
 const Skills = () => {
   const skillsImages: SkillType[] = [
-    { id: 1, image: HtmlImage, label: "HTML" },
-    { id: 2, image: CssImage, label: "CSS" },
-    { id: 3, image: JsImage, label: "JavaScript" },
-    { id: 4, image: TsImage, label: "TypeScript" },
+    { id: 0, image: HtmlImage, label: "HTML" },
+    { id: 1, image: CssImage, label: "CSS" },
+    { id: 2, image: JsImage, label: "JavaScript" },
+    { id: 3, image: TsImage, label: "TypeScript" },
+    { id: 4, image: JavaImage, label: "Java" },
     { id: 5, image: ReactImage, label: "React" },
     { id: 6, image: ReactNativeImage, label: "React Native" },
     { id: 7, image: NextImage, label: "NextJS" },
