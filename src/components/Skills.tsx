@@ -20,6 +20,7 @@ import TailwindImage from "@/assets/skills/tailwindcss.svg";
 import StyledImage from "@/assets/skills/styledcomponents.svg";
 import ReduxImage from "@/assets/skills/redux.svg";
 import JestImage from "@/assets/skills/jest.svg";
+import PythonImage from "@/assets/skills/python.svg";
 
 const Skills = () => {
   const skillsImages: SkillType[] = [
@@ -43,6 +44,7 @@ const Skills = () => {
     { id: 17, image: StyledImage, label: "Styled Components" },
     { id: 18, image: ReduxImage, label: "Redux" },
     { id: 19, image: JestImage, label: "Jest" },
+    { id: 20, image: PythonImage, label: "Python" },
   ];
 
   return (

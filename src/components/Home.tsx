@@ -16,9 +16,10 @@ const Home = () => {
             desenvolvedor Full Stack.
           </h2>
           <p className="text-gray-300 py-4 max-w-md">
-            Com mais de 2 anos de experiência em tecnologias de ponta. Possuo
-            foco em criar sites responsivos, dinâmicos e seguros, sempre
-            priorizando a qualidade e as melhores práticas do mercado.
+            Com mais de {new Date().getFullYear() - 2021} anos de experiência em
+            tecnologias de ponta. Possuo foco em criar sites responsivos,
+            dinâmicos e seguros, sempre priorizando a qualidade e as melhores
+            práticas do mercado.
           </p>
           <div>
             <a

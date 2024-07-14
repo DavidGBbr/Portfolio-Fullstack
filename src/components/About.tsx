@@ -11,10 +11,11 @@ const About = () => {
         </div>
 
         <p className="text-xl text-gray-300 mt-20">
-          Como Desenvolvedor Full Stack, possuo mais de 2 anos de experiência em
-          tecnologias de ponta. Ao trabalhar em diversos projetos, aprimorei
-          minhas habilidades na construção e manutenção de softwares escaláveis
-          e de alto desempenho. Sou ágil, sempre estou em busca de novos
+          Como Desenvolvedor Full Stack, possuo mais de{" "}
+          {new Date().getFullYear() - 2021} anos de experiência em tecnologias
+          de ponta. Ao trabalhar em diversos projetos, aprimorei minhas
+          habilidades na construção e manutenção de softwares escaláveis e de
+          alto desempenho. Sou ágil, sempre estou em busca de novos
           conhecimentos e consistentemente aprimoro minhas habilidades.
         </p>
         <br />
