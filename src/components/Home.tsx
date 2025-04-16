@@ -23,7 +23,7 @@ const Home = () => {
           </p>
           <div>
             <a
-              href="https://drive.google.com/uc?export=download&id=1KNxhQ-K7B_i3C_oml2JVq5IbLWZU2F1g"
+              href="https://drive.google.com/file/d/1YEmk_OD7OGDfagDsCBcv3f8b-PV2x3J0/view?usp=drive_link"
               type="application/pdf"
               className="text-2xl font-bold mt-5 border-[3px] border-green-700 w-80 py-5 px-10 rounded-2xl flex items-center justify-center gap-3 duration-500 hover:bg-green-400 hover:scale-105"
             >
