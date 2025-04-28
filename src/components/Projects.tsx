@@ -11,26 +11,26 @@ import PetFriendImage from "@/assets/projects/pet-friend.png";
 
 const Projects = () => {
   const projects: ProjectType[] = [
-    {
-      id: 0,
-      name: "Pet Friend",
-      description:
-        "sistema de adoção de pets, proporcionando o contato direto entre adotantes e doadores de animais de estimação.",
-      techs: [
-        "NextJS",
-        "Axios",
-        "Nookies",
-        "MongoDB",
-        "Node",
-        "Express",
-        "Prisma",
-        "Bcrypt",
-        "multer",
-      ],
-      repo: "https://github.com/DavidGBbr/PetFriend",
-      site: "https://pet-friend.vercel.app/",
-      image: PetFriendImage,
-    },
+    // {
+    //   id: 0,
+    //   name: "Pet Friend",
+    //   description:
+    //     "sistema de adoção de pets, proporcionando o contato direto entre adotantes e doadores de animais de estimação.",
+    //   techs: [
+    //     "NextJS",
+    //     "Axios",
+    //     "Nookies",
+    //     "MongoDB",
+    //     "Node",
+    //     "Express",
+    //     "Prisma",
+    //     "Bcrypt",
+    //     "multer",
+    //   ],
+    //   repo: "https://github.com/DavidGBbr/PetFriend",
+    //   site: "https://pet-friend.vercel.app/",
+    //   image: PetFriendImage,
+    // },
     {
       id: 1,
       name: "Finance Controller",
@@ -77,22 +77,22 @@ const Projects = () => {
       site: "https://dogs-navy.vercel.app/",
       image: DogsImage,
     },
-    {
-      id: 5,
-      name: "Cell Shop",
-      description:
-        "E-commerce de celulares, que lhe permite a adição de produtos ao carrinho de compras e calcula o valor total da compra juntamente com os produtos escolhidos.",
-      techs: [
-        "React",
-        "React Router Dom",
-        "React Icons",
-        "Styled Components",
-        "Context API",
-      ],
-      repo: "https://github.com/DavidGBbr/cell-shop",
-      site: "https://cell-shop-xi.vercel.app/",
-      image: CellShopImage,
-    },
+    // {
+    //   id: 5,
+    //   name: "Cell Shop",
+    //   description:
+    //     "E-commerce de celulares, que lhe permite a adição de produtos ao carrinho de compras e calcula o valor total da compra juntamente com os produtos escolhidos.",
+    //   techs: [
+    //     "React",
+    //     "React Router Dom",
+    //     "React Icons",
+    //     "Styled Components",
+    //     "Context API",
+    //   ],
+    //   repo: "https://github.com/DavidGBbr/cell-shop",
+    //   site: "https://cell-shop-xi.vercel.app/",
+    //   image: CellShopImage,
+    // },
   ];
 
   return (
